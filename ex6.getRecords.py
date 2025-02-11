@@ -6,7 +6,7 @@ connection = sqlite3.connect(file)
 print(connection)
 
 cursor = connection.cursor()
-query = "select * from customers"
+query = "select * from npc"
 """
 Note that instead of selecting ALL of the data, we can be more specific about what we select and
 where we select from:

@@ -6,7 +6,7 @@ connection = sqlite3.connect(file)
 print(connection)
 
 cursor = connection.cursor()
-cursor.execute('PRAGMA table_info(customers);')
+cursor.execute('PRAGMA table_info(npc);')
 """
 This pragma returns one row for each column in the named table. Columns in the result set include the 
 column name, 
